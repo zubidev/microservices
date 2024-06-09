@@ -1,0 +1,21 @@
+# .gitignore
+
+# Composer
+/vendor/
+/composer.lock
+
+# Symfony
+/var/
+/public/bundles/
+/public/uploads/
+/public/media/
+
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
